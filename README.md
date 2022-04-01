@@ -114,6 +114,8 @@ $ composer require open-telemetry/opentelemetry
 ```
 
 ## Development
+This project uses the [3 Musketeers Pattern](https://3musketeers.io/) to ensure repeatability and consistency across different operating systems.
+
 We use `docker` and `docker-compose` to perform a lot of our static analysis and testing.  
 
 If you're planning to develop for this library, it'll help to install `docker engine` and `docker-compose`.  
